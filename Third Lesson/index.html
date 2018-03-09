@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson #3</title>
+	<link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+	<form action="http://maximumstart.herokuapp.com/register" method="get" class="form">
+
+	<h1>Регистрация</h1>
+	
+	<h6>*Все поля обязательны к заполнению</h6>
+	
+
+		<p>
+			<label for="name" >Имя</label>
+			<input id="name" type="text" name="name" required>
+		</p>
+
+		<p>
+			<label for="surname">Фамилия</label>
+			<input id="surname" type="text" name="surname" required>
+		</p>
+
+		<p>
+			<label for="phone">Телефон</label>
+			<input id="phone" type="tel" name="phone" placeholder="+38(0XX)XXX-XXXX" required>	
+		</p>
+
+		<p>
+			<label for="col">Любимый цвет</label>
+			<input id="col" type="color" name="color" required>
+		</p>
+
+		<p>
+			<label for="date">Сегодняшнее число</label>
+			<input id="date" type="date" name="date" required>
+		</p>
+
+		<p>
+			<label for="password1">Пароль</label>
+			<input id="password1" type="password" name="password" required>
+		</p>
+			
+		<p>
+			<label for="password2">Повторить пароль</label>
+			<input id="password2" type="password" name="repeatpassword" required>
+		</p>
+
+		<p>
+			<input id="gen1" type="radio" name="gender" value="Мальчик">
+			<label for="gen1" class="gender">Мальчик</label>
+		</p>
+
+		<p>
+			<input id="gen2" type="radio" name="gender" value="Девочка">
+			<label for="gen2" class="gender">Девочка</label>
+		</p>
+
+		<p>
+			<input id="gen3" type="radio" name="gender" value="Не определился">
+			<label for="gen3" class="gender">Не определился</label>
+		</p>
+		
+		<p>
+			<label>Сообщение</label>
+			<textarea name="message" cols="40" rows="3"></textarea>
+		</p>
+
+		<input type="submit">
+	
+	</form>
+</body>
+</html>
