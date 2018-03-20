@@ -1,0 +1,48 @@
+* {
+	font-family: sans-serif;
+}
+
+.article__more {
+	text-decoration: none;
+}
+
+.article {
+	line-height: 27px;
+}
+
+.header {
+	text-align: center;
+}
+
+.header {
+	background-color: #e5e5e5;
+	min-height: 150px;
+	padding: 40px 0 40px 0;
+	margin: 0;
+	width: 100%;
+
+}
+
+.article {
+	background-color: #ccc;
+	margin: 30px;
+	padding: 10px 30px 10px 30px;
+	border: 1px dashed black;
+	max-height: 185px;
+}
+
+a {
+	color: black;
+}
+
+.article__more:hover {
+	border-bottom: 1px dotted black;
+}
+
+footer {
+	background-color: #e5e5e5;
+	padding: 15px;
+	border-top: 1px solid black;
+	min-height: 49px;
+	width: 100%;
+}
