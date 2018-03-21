@@ -2,6 +2,10 @@
 	font-family: sans-serif;
 }
 
+body {
+	margin: 0;
+}
+
 .article__more {
 	text-decoration: none;
 }
@@ -18,8 +22,6 @@
 	background-color: #e5e5e5;
 	min-height: 150px;
 	padding: 40px 0 40px 0;
-	margin: 0;
-	width: 100%;
 
 }
 
@@ -43,6 +45,4 @@ footer {
 	background-color: #e5e5e5;
 	padding: 15px;
 	border-top: 1px solid black;
-	min-height: 49px;
-	width: 100%;
-}
+	min-height: 19px;
