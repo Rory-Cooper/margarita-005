@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<h1>MINIMO</h1>
+			</div>
+			<ul>
+				<li><a href="#">Lifestyle</a></li>
+				<li><a href="#">Photodiary</a></li>
+				<li><a href="#">Music</a></li>
+				<li><a href="#">Travel</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<article>
+		<a href="#" class="category-link">Lifestyle</a>
+		<a href="#" class="post-link"><h1 class="post-title">Lorem ipsum dolor sit.</h1></a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quo labore accusamus explicabo sed perspiciatis quod illo minus non ex, provident voluptatibus architecto sapiente quaerat itaque, recusandae delectus beatae deleniti.</p>
+		<a href="#" class="comment-link">Leave a comment</a>
+	</article>
+
+
+</body>
+</html>
