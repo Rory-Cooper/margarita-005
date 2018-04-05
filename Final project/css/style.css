@@ -6,8 +6,7 @@
 
 body {
 	width: 1920px;
-	background-color: #fff;
-	margin: 0;
+	margin: 0 auto;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 17px;
 	line-height: 28px;
@@ -46,7 +45,6 @@ nav {
     display: block;
     content: ' ';
     clear: both;
-    float: none;
 }
 
 .sprite-Menu { 
@@ -75,15 +73,13 @@ nav {
 }
 
 .menu .sub-menu>li {
-	display: block;
-	transition: 0.5s ease-in-out;
+	display: flex;
 }
 
 .menu .sub-menu>li>a {
 	display: block;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     color: #d22425;
-    font-family: 'Nunito Sans', sans-serif;
     text-decoration: none;
     transition: 0.5s ease-in-out;
 }
@@ -110,7 +106,6 @@ nav {
 	flex-direction: column;
 	align-items: flex-start;
 	color: #dbdbdb;
-	font-family: 'Nunito Sans', sans-serif;
 	margin-top: 232px;
 }
 
@@ -185,7 +180,7 @@ nav {
 	min-height: 700px;
 	margin-left: 282px;
 	margin-top: 0px;
-	background-image: url(../img/What We do.png); /*не работает!*/
+	background-image: url(../img/WhatWedo.png); /*не работает!*/
 	background-position: 50% 50%;
 }
 
@@ -212,13 +207,18 @@ h1 {
 	padding-top: 15px;
 }
 
-.text1 {
+.textsection1 {
 	color: #393939;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 16px;
 	line-height: 18px;
 	margin-left: 51px;
+}
+
+.image_baloons {
+	display: flex;
+	justify-content: center;
 }
 
 .baloons {
@@ -263,7 +263,7 @@ h1 {
 	margin-top: 27px;
 }
 
-.text2 {
+.textsection2 {
 	margin-left: 95px;
 	width: 375px;
 	font-size: 17px;
@@ -362,7 +362,7 @@ h1 {
 	margin-top: 40px;
 }
 
-.text3 {
+.textsection3 {
 	width: 255px;
 	height: 255px;
 	display: flex;
