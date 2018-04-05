@@ -12,6 +12,10 @@ body {
 	line-height: 28px;
 }
 
+.section1, .section2, .section4 {
+	width: 1580px;
+	margin: 0 auto;
+}
 .sprite {
     background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
@@ -26,11 +30,11 @@ header {
 }
 
 nav {
-	width: 1390px;
+	width: 1580px;
 	display: inline-flex;
 	justify-content: space-between;
-	margin-left: 305px;
 	padding-top: 66px;
+	padding-left: 305px;
 }
 
 .menu {
@@ -151,8 +155,8 @@ nav {
 .roll {
 	display: flex;
 	justify-content: center;
-	width: 1795px;
 }
+
 .arrow {
 	display: flex;
 	justify-content: center;
@@ -172,28 +176,25 @@ nav {
 }
 
 .section1 {
-	width: 1170px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	flex-direction: row;
 	min-height: 700px;
-	margin-left: 282px;
-	margin-top: 0px;
-	background-image: url(../img/WhatWedo.png); /*не работает!*/
-	background-position: 50% 50%;
+	background-image: url(../img/WhatWedo.png);
+	background-position: 13% 26%;
+	background-repeat: no-repeat;
 }
 
 .discription {
-	margin-top: 25px;
+	margin-top: 28px;
 	display: flex;
 	flex-direction: column;
 	width: 515px;
 	margin-right: 170px;
-	background-image: url(../img/What We do.png);
 }
 
-h1 {
+.title {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	font-size: 60px;
@@ -219,6 +220,7 @@ h1 {
 .image_baloons {
 	display: flex;
 	justify-content: center;
+	width: 425px;
 }
 
 .baloons {
@@ -233,15 +235,14 @@ h1 {
 }
 
 .section2 {
-	width: 1175px;
-	min-height: 1020px;
-	margin-left: 310px;
+	margin: 0 auto;
 	margin-top: 158px;
-	background-image: url(../img/Blood.png);
-	background-repeat: no-repeat;
-	background-position: 118% 101%;
+	background: url(../img/Blood.png) 84% 100% no-repeat,
+				url(../img/InnovativeThinking.png) 19% 18% no-repeat;
+
+	min-height: 1020px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	flex-direction: row;
 }
@@ -250,7 +251,7 @@ h1 {
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
-	width: 514px;
+	width: 458px;
 }
 
 .firstcolumn h2 {
@@ -274,53 +275,27 @@ h1 {
 	font-size: 100px;
 	color: #333333;
 	font-weight: bold;
+	margin: 0;
 }
 
 .secondcolumn {
 	display: flex;
 	justify-content: flex-start;
-	flex-direction: column;
-	width: 415px;
 	margin-top: 18px;
-	margin-left: 0px;
+	width: 711px;
 }
 
-.secondcolumn .text2 {
-	margin-left: 0px;
-	width: 370px;
-}
-
-.sidebar h1 {
-	width: 375px;
-	transform: rotate(270deg);
-	margin-left: -100px; /*Косяк*/
-	line-height: 100px;
-	margin-top: 460px;
-}
- /*недвигается коректно!*/
-.textred { 
-	color: #d22425; 
-	background-color: #fff;
-	text-align: center;
-	transform: rotate(270deg);
-	text-transform: uppercase;
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 16px;
-	line-height: 25px;
-	margin-left: 90px;
-	margin-bottom: 300px;
-	margin-top: 0px;
-	width: 125px;
+.secondcolumn .textsection2 {
+	margin-left: 55px;
 }
 
 .button {
 	text-decoration: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: block;
+	text-align: center;
 	border: 3px solid #eeeeee;
 	color: #d22425;
-	width: 150px;
+	width: 140px;
 	height: 40px;
 	margin-top: 48px;
 	margin-left: 95px;
@@ -337,9 +312,12 @@ h1 {
 
 .section3 {
 	min-height: 700px;
-	margin-left: 310px;
+	padding-left: 400px;
 	margin-top: 320px;
 	width: 1550px;
+	background-image: url(../img/SomeDesigns.png);
+	background-repeat: no-repeat;
+	background-position: 23% 5%;
 }
 
 .article {
@@ -391,6 +369,10 @@ h1 {
 	margin-left: 3px;
 	font-style: 14px;
 	font-weight: 900;
+	font-size: 16px;
+	line-height: 30px;
+	color: #d22425; 
+	text-transform: uppercase;
 }
 
 .link:hover {
@@ -402,11 +384,14 @@ h1 {
 	justify-content: flex-start;
 	flex-direction: column;
 	width: 1170px;
+	margin: 0 auto;
 	margin-top: 80px;
-	margin-left: 310px;
+	background-image: url(../img/ContactUs.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
 }
 
-.text4 {
+.textsection4 {
 	width: 300px;
 	font-size: 14px;
 	line-height: 24px;
@@ -421,7 +406,6 @@ h1 {
 	width: 1032px;
 	font-size: 16px;
 	line-height: 22px;
-	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 300;
 }
 
@@ -461,7 +445,7 @@ h1 {
 .comment {
 	border: none;
 	border-bottom: 1px solid #a5a5a5;
-	min-height: 215px;
+	min-height: 212px;
 	font-style: 16px;
 	line-height: 22px;
 	font-family: 'Myriad', sans-serif;
@@ -501,6 +485,7 @@ footer {
 
 .heart {
 	display: flex;
+	justify-content: center;
 }
 
 .sprite-Heart {
@@ -509,7 +494,6 @@ footer {
     background-position: -1px -21px;
     padding-left: 2px;
     margin-top: 215px;
-    margin-left: 875px;
     transition: 0.5s ease-in-out;
 }
 
