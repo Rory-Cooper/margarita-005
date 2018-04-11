@@ -27,24 +27,28 @@ header {
 	background-image: url(../img/Header.jpg);
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
 }
 
 nav {
 	width: 687px;
-	margin: 0 auto;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
-	-ms-align-items: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	padding-top: 15px;
-	position:absolute;
-	left:25%;top:0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
 }
 
 .sprite-Menu { 
@@ -68,12 +72,7 @@ nav {
 }
 
 .menu {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    margin-left: auto;
 }
 
 .sub-menu {
@@ -90,7 +89,7 @@ nav {
 	color: #393939;
     font-size: 8px;
 	height: 20px;
-	min-width: 125px;
+	min-width: 80px;
 	padding-top: 5px;
     text-decoration: none;
     display: block;
@@ -153,7 +152,6 @@ nav {
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	padding-left: 260px;
 }
 
 .logo {
@@ -259,8 +257,6 @@ nav {
 	        justify-content: center;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
 	min-height: 350px;
 	background-image: url(../img/WhatWedo.png);
 	background-position: 15% 24%;
@@ -429,7 +425,7 @@ nav {
 
 .button:hover {
 	background-color: #d22425;
-	width: 69px;
+	width: 70px;
 	height: 20px;
 	border: 1px solid #dbdbdb;
 	color: #fff;
